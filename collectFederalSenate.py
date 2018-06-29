@@ -22,7 +22,7 @@ for row in data:
 	party = row[1].strip()
 	name = row[2].strip()
 	switch = row[4].strip()
-	twitterName = row[3].strip(
+	twitterName = row[3].strip()
 			
 	partyPath = os.path.join(home, party + "-" + name)
 	if not os.path.isdir(partyPath):
